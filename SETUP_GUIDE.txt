@@ -1,0 +1,40 @@
+
+🏛️ GUIDE DE DÉMARRAGE THEMIS-BOT
+================================
+
+1. 📝 CONFIGURATION DU TOKEN
+   - Allez sur https://discord.com/developers/applications
+   - Créez une nouvelle application
+   - Section "Bot" -> Reset Token
+   - Copiez le token dans data/config.json
+
+2. 🔧 PERMISSIONS REQUISES
+   Le bot a besoin des permissions suivantes:
+   - Send Messages
+   - Manage Messages
+   - Read Message History
+   - Embed Links
+   - Use Slash Commands
+   - Moderate Members (pour timeout)
+
+3. 🔗 INVITATION DU BOT
+   URL d'invitation avec permissions:
+   https://discord.com/api/oauth2/authorize?client_id=VOTRE_CLIENT_ID&permissions=1099780067329&scope=bot
+
+4. ⚙️ COMMANDES PRINCIPALES
+   !setup         - Configuration initiale
+   !configure     - Configurer un canal
+   !rules         - Afficher les règles
+   !warn          - Avertir un utilisateur
+   !purge         - Nettoyer des messages
+   !stats         - Statistiques
+
+5. 🚀 DÉMARRAGE
+   python main.py
+
+6. 📋 VÉRIFICATIONS
+   - Le bot apparaît en ligne
+   - Réagit aux commandes
+   - Modère automatiquement
+   
+Que la justice de Thémis guide vos pas ! ⚖️

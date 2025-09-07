@@ -1,0 +1,12 @@
+=== TRANSCRIPT DU TICKET ===
+Canal: #ticket-bsb_yuu-2a1b4469
+Date: 2025-09-07 04:07:20
+==================================================
+
+[2025-09-07 02:06:04] Themis (1390353372141457418): [Message sans contenu]
+  📋 Embed: 🎫 Nouveau Ticket de Vérification
+[2025-09-07 02:06:11] Themis (1390353372141457418): [Message sans contenu]
+  📋 Embed: 📸 Photo reçue !
+[2025-09-07 02:06:12] Themis (1390353372141457418): 🔔 <@&1414068473994153994> - Nouvelle photo d'identité à vérifier dans ce ticket !
+[2025-09-07 02:07:11] Themis (1390353372141457418): [Message sans contenu]
+  📋 Embed: ✅ Vérification Approuvée !

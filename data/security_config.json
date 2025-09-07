@@ -1,0 +1,38 @@
+{
+  "security": {
+    "max_requests_per_minute": 5,
+    "test_timeout": 15,
+    "allowed_test_users": [],
+    "blocked_ips": [],
+    "allowed_ip_ranges": [
+      "192.168.0.0/16",
+      "10.0.0.0/8", 
+      "172.16.0.0/12",
+      "127.0.0.0/8"
+    ],
+    "enable_ip_tests": true,
+    "log_all_tests": true,
+    "max_scan_hosts": 10,
+    "max_scan_ports": 5
+  },
+  "moderation": {
+    "auto_delete": true,
+    "warning_threshold": 3,
+    "temp_ban_duration": 86400,
+    "log_channel": null,
+    "whitelist_roles": ["admin", "moderator"],
+    "enable_auto_moderation": true
+  },
+  "rate_limiting": {
+    "global_rate_limit": 60,
+    "per_user_rate_limit": 10,
+    "command_cooldown": 3,
+    "heavy_command_cooldown": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size": 10485760,
+    "backup_count": 5,
+    "log_sensitive_data": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "channel_rules": {
+    "discussion-générale": {
+      "allowed_types": [
+        "discussion",
+        "general"
+      ],
+      "forbidden_keywords": [
+        "aide",
+        "help",
+        "bug",
+        "support"
+      ],
+      "redirect_message": "📢 Les discussions générales appartiennent au temple de la parole commune."
+    },
+    "support-général": {
+      "allowed_types": [
+        "help",
+        "support",
+        "question"
+      ],
+      "required_keywords": [
+        "?",
+        "aide",
+        "help",
+        "comment",
+        "problème"
+      ],
+      "redirect_message": "🆘 Les demandes d'aide trouvent leur sanctuaire ici, chercheur de solutions."
+    },
+    "annonces-royales": {
+      "allowed_types": [
+        "announcement"
+      ],
+      "role_restrictions": [
+        "🏛️ Gardien Suprême",
+        "⚖️ Magistrat"
+      ],
+      "redirect_message": "📯 Seuls les hérauts peuvent proclamer dans ce temple sacré."
+    },
+    "développement": {
+      "allowed_types": [
+        "code",
+        "development"
+      ],
+      "required_keywords": [
+        "code",
+        "fonction",
+        "bug",
+        "feature",
+        "dev"
+      ],
+      "redirect_message": "⚙️ Le code trouve sa place dans l'atelier des créateurs."
+    }
+  },
+  "global_rules": {
+    "spam_threshold": 3,
+    "max_message_length": 2000,
+    "forbidden_attachments": [
+      ".exe",
+      ".bat",
+      ".scr"
+    ],
+    "auto_moderate": true
+  }
+}
